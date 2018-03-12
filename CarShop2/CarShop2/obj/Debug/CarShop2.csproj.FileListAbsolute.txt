@@ -1,0 +1,6 @@
+c:\users\nbarkus\documents\visual studio 2015\Projects\CarShop2\CarShop2\bin\Debug\CarShop2.exe.config
+c:\users\nbarkus\documents\visual studio 2015\Projects\CarShop2\CarShop2\bin\Debug\CarShop2.exe
+c:\users\nbarkus\documents\visual studio 2015\Projects\CarShop2\CarShop2\bin\Debug\CarShop2.pdb
+c:\users\nbarkus\documents\visual studio 2015\Projects\CarShop2\CarShop2\obj\Debug\CarShop2.csprojResolveAssemblyReference.cache
+c:\users\nbarkus\documents\visual studio 2015\Projects\CarShop2\CarShop2\obj\Debug\CarShop2.exe
+c:\users\nbarkus\documents\visual studio 2015\Projects\CarShop2\CarShop2\obj\Debug\CarShop2.pdb
