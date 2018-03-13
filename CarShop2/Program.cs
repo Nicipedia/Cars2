@@ -76,7 +76,7 @@ namespace CarShop2
             string inputValue = (Console.ReadLine());
             try
             {
-                carsShop.Value = Convert.ToDouble(inputValue);
+                carsShop.Price = Convert.ToDouble(inputValue);
             }
             catch (FormatException)
             {
@@ -93,7 +93,7 @@ namespace CarShop2
             ;
             try
             {
-                string totalValue = string.Format("{0:C}" + ",", carsShop.Value);
+                string totalValue = string.Format("{0:C}" + ",", carsShop.Price);
                 carList.Append(totalValue);
             }
             catch(FormatException)
@@ -103,7 +103,7 @@ namespace CarShop2
             
 
             Console.Write("The value of the commission is as follows: ");
-            carsShop.Comm = GetCommission(carsShop.Value);
+            carsShop.Comm = GetCommission(carsShop.Price);
             try
             {
                 string totalComm = string.Format("{0:C}" + ",", carsShop.Comm);
@@ -114,7 +114,7 @@ namespace CarShop2
                 Console.WriteLine("Unknown Format");
             }
             Console.Write("The Net Value of the Car is: ");
-            carsShop.netValue = GetNetValue(carsShop.Value, carsShop.Comm);
+            carsShop.netValue = GetNetValue(carsShop.Price, carsShop.Comm);
             try
             {
                 string totalNetValue= string.Format("{0:C}" + "\n", carsShop.netValue);

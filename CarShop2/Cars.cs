@@ -11,7 +11,7 @@ namespace CarShop2
         private string _make;
         private string _model;
         private string _colour;
-        private double _value;
+        private double _price;
         private double _comm;
         private double _netValue;
 
@@ -30,10 +30,10 @@ namespace CarShop2
             get { return _colour; }
             set { _colour = value; }
         }
-        public double Value
+        public double Price
         {
-            get { return _value; }
-            set { _value = value; }
+            get { return _price; }
+            set { _price = value; }
         }
         public double Comm
         {
